@@ -28,7 +28,50 @@
 }
 
 body {
+    min-height: 100dvh;
     font-family: var(--font-main);
     font-size: var(--font-size-l);
     font-weight: 400;
+    color: var(--white);
+    background-color: var(--blue-700);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid var(--blue-400);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    position: relative;
+    color: var(--white);
+    text-decoration: none;
+    padding-left: 1rem;
+}
+
+.logo::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-10%, -50%);
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    background-color: var(--white);
+}
+
+.btn-menu {
+    background-color: transparent;
+    border: none;
+    border-radius: 0.35rem;
 }
