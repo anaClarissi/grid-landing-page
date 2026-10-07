@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/inter/inter-variable.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+
+    --white: #ffffff;
+
+    --blue-200: #e5ecff;
+    --blue-400: #4785ff;
+    --blue-600: #335cff;
+    --blue-700: #2a54fe;
+
+    --black: #000000; /*used at 25% opacity for the menu overlay*/
+
+    --font-main: 'Inter', Helvetica, Arial, sans-serif;
+    --font-size-l: 1.063rem;
+    --font-size-p: 0.875rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-main);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+}
