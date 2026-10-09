@@ -20,6 +20,8 @@
     --font-size-l: 1.063rem;
     --font-size-p: 0.875rem;
 
+    --background: linear-gradient(90deg,rgba(42, 84, 254, 1) 90%, rgba(51, 92, 255, 1) 100%);
+
 }
 
 * {
@@ -36,6 +38,7 @@ body {
     font-weight: 400;
     color: var(--white);
     background-color: var(--blue-700);
+    background: var(--background);
 }
 
 .header {
@@ -48,6 +51,7 @@ body {
     border-bottom: 1px solid var(--blue-400);
     z-index: 1000;
     background-color: var(--blue-700);
+    background: var(--background);
 }
 
 .nav {
@@ -88,6 +92,7 @@ body {
     grid-template-columns: 1fr;
     gap: 3rem;
     background-color: var(--blue-700);
+    background: var(--background);
 }
 
 .menu {
@@ -97,6 +102,7 @@ body {
     display: none;
     margin-top: 4rem;
     background-color: var(--blue-700);
+    background: var(--background);
     z-index: 10;
 }
 
@@ -190,6 +196,7 @@ body {
     color: var(--blue-200);
     border-top: 1px solid var(--blue-400);
     background-color: var(--blue-700);
+    background: var(--background);
 }
 
 .bg-hidden {
